@@ -1,7 +1,3 @@
-# CSS
-Elzero Web School - CSS Course
-
-
 # CSS Course - Elzero Web School  
 
 This repository contains my learning progress and projects from the **Elzero Web School - CSS Course**.  
