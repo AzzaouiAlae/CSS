@@ -1,0 +1,14 @@
+p {
+    color: blueviolet;
+    font-size: 44px;
+}
+
+#special {
+    color: red;
+    font-size: 25px;
+}
+
+.special {
+    color: #00f;
+    font-size: 25px;
+}
