@@ -1,0 +1,11 @@
+div {
+    font-size: 25px;
+    padding: 10px;
+    margin: auto;
+    width: 80%;
+    background-color: #DDD;
+    /*border-width: 10px 20px;
+    border-color: red green blue yellow;
+    border-style: solid dashed dotted double;*/
+    border: 3px dashed red;
+}

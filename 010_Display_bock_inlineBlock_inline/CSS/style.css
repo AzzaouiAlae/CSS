@@ -1,0 +1,32 @@
+h3 {
+    font-size: 30px;
+}
+
+div {
+    font-size: 20px;
+}
+
+.Block {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block1 {
+    background-color: #d99;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block2 {
+    background-color: #99d;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block3 {
+    background-color: #9d9;
+    padding: 10px;
+    margin: 10px;
+}
