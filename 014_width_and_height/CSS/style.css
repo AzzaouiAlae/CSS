@@ -1,0 +1,22 @@
+.my-paragraph1, 
+.my-paragraph2, 
+.my-paragraph3, 
+.my-paragraph4 {
+    background-color: blue;
+}
+
+.my-div {
+    color: greenyellow;
+    font-size: 40px;
+    display: inline-block;
+    min-width: 400px;
+    max-width: 70%;    
+}
+
+.my-paragraph4 {
+    max-height: 100px;
+}
+
+.my-paragraph1 {
+    width: fit-content;
+}
