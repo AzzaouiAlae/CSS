@@ -1,0 +1,39 @@
+a {
+    background-color: red;
+    color: white;
+    font-size: 30px;
+    padding: 10px 25px;
+    margin: 0 12px;
+    display: inline-block;
+    border-radius: 30px;
+    text-decoration: none;
+    box-shadow: 4px 4px 10px #d99;
+}
+
+div {
+    font-size: 40px;
+    margin: 25px;
+    background-color: #ddd;
+    width: fit-content;
+    padding: 0 15px;    
+}
+
+.example1 {
+    text-decoration: line-through;
+}
+
+.example2 {
+    text-decoration: underline;
+}
+
+.example3 {
+    text-decoration: overline;
+}
+
+.example4 {
+    text-transform: capitalize;
+}
+
+.example5 {
+    text-transform: uppercase;
+}
