@@ -2,7 +2,7 @@ div {
     font-size: 30px;
     padding: 15px;
     margin: 15px;
-    background-color: #ddd;
+    background-color: #ddd;    
 }
 
 .example1 {
@@ -12,11 +12,10 @@ div {
 .example2 {
     font-family: 'Times New Roman', Times, serif;
 }
-
 .example3 {
     font-family: "Noto Sans", serif;
-    font-optical-sizing: auto;
-    font-weight: 10px;
-    font-style: normal;
-    font-variation-settings: "wdth" 100;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 1000;
 }

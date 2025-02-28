@@ -8,6 +8,12 @@ a {
     border-radius: 30px;
     text-decoration: none;
     box-shadow: 4px 4px 10px #d99;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: -2px;
+}
+
+a:hover {
+    background-color: #F55;
 }
 
 div {
