@@ -1,0 +1,15 @@
+.example1 {
+    font-style: italic;
+}
+
+.example2 {
+    font-variant: small-caps;
+} 
+
+.example3 {
+    font-weight: 100;
+} 
+
+.example4 h2 {
+    font-weight: 100;
+}

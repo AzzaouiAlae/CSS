@@ -1,0 +1,59 @@
+h3 {
+    font-size: 30px;
+    background-color: #ddd;
+}
+
+div {
+    font-size: 23px;
+}
+
+.Block {
+    background-color: #ddd;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block1 {
+    background-color: #d99;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block2 {
+    background-color: #99d;
+    width: 50%;
+    padding: 10px;
+    margin: 10px;
+}
+
+.Block3 {
+    background-color: #9d9;
+    padding: 10px;
+    margin: 10px;
+}
+
+span {
+    background-color: #ddd;
+    padding: 20px;
+}
+
+.spn1 {
+    background-color: #d99;
+    padding: 42px;
+    margin: 10px;
+}
+
+.test {
+    background-color: aqua;
+}
+
+.test2 {
+    background-color: aqua;
+}
+
+.spn-4, .spn-5, .spn-6  {
+    display: inline-block;
+    padding: 50px;
+    margin: 10px;
+    width: 500px;
+}

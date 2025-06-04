@@ -1,0 +1,11 @@
+div {
+    width: 100px;
+    border-end-end-radius: 45px;
+    border-start-start-radius: 45px;
+    background-color: red;
+    text-align: center;
+    padding: 15px;
+    color: white;
+    font-weight: 900;
+
+}

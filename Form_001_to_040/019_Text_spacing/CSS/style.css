@@ -1,0 +1,35 @@
+div {
+    font-size: 30px;
+    background-color: #ddd;
+    margin: 15px;
+}
+
+.example1 {
+    letter-spacing: -2px;
+}
+
+.example2 {
+    text-indent: 100px;
+}
+
+.example3 {
+    text-indent: -999px;
+}
+
+.example4 {
+    line-height: 1.6;
+}
+
+.example5 {
+    word-spacing: 30px;
+}
+
+.example6 {
+    width: 500px;
+    white-space: nowrap;
+}
+
+.example7 {
+    width: 500px;
+    word-break: break-word;
+}

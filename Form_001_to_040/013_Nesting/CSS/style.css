@@ -1,0 +1,12 @@
+p {
+    font-size: 30px;
+}
+
+div p {
+    color: red;
+}
+
+div .my-paragraph {
+    color: blue;
+    
+}
