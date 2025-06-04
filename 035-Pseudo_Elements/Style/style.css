@@ -1,0 +1,25 @@
+.one, .two, .three, .four {
+    font-size: 30px;
+}
+
+.one span {
+    background-color: red;
+    font-size: 60px;
+    color: white;
+}
+
+.two::first-letter {
+    background-color: red;
+    font-size: 60px;
+    color: white;
+}
+
+.three::first-line {
+    color:green;
+    font-weight: bold;
+}
+
+.four::selection {
+    background-color: black;
+    color: #faa;
+}

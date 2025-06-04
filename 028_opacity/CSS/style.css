@@ -1,0 +1,12 @@
+div {
+    font-size: 35px;
+    background-color: red;
+}
+
+.one {
+    opacity: .5;
+}
+
+.two {
+    background-color: rgb(255 0  0 / .5);
+}
