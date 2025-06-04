@@ -1,0 +1,19 @@
+* {
+    box-sizing: border-box;
+}
+
+.one {
+    width: 200px;
+    height: 80px;
+    background-color: #eee;
+    /* transition-duration: 2s;
+    transition-delay: .2s;
+    transition-property: width;
+    transition-timing-function: ease; */
+    transition: all .5s .2s ease;
+}
+
+.one:hover {
+    width: 500px;
+    height: 200px;
+}

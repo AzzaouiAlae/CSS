@@ -1,0 +1,37 @@
+* {
+    box-sizing: border-box;
+}
+
+.parent {
+    
+    background-color: #ddd;
+    border-width: 10px;
+    position: relative;
+    overflow: hidden;
+    height: fit-content;
+    height: 120px;
+}
+
+.one {
+    left: 10px;
+    position: absolute;
+    width: 150px;
+    height: 100px;
+    top: 10px;
+    float: left;
+    border: 10px solid red;
+    padding: 10px;
+    background-color: #ddd;
+}
+
+.two {
+    right: 10px;
+    top: 10px;
+    position: relative;
+    width: 150px;
+    height: 100px;
+    float: right;
+    border: 10px solid red;
+    padding: 10px;
+    background-color: #ddd;
+}
