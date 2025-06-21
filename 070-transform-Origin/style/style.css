@@ -1,0 +1,42 @@
+html, body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    width: 25%;
+    height: 25%;
+    align-self: center;
+    background-color: #eee;
+    padding: 10px;
+    position: absolute;
+}
+
+.parent div {
+    background-color: red;
+    width: 100%;
+    height: 100%;
+    opacity: .6;
+    font-size: 25px;
+    align-content: center;
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    transform: rotate(0deg);
+    transform-origin: 50% 100%;
+}
+
+.parent .origin {
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    border-radius: 50%;
+    transform: translate(-50%, -100%);
+}

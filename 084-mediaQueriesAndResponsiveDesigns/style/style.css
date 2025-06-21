@@ -1,0 +1,23 @@
+html , body {
+    width: 100%;
+}
+.parent {
+    gap: 15px;
+    display: flex;
+    margin: auto;
+    width: fit-content;
+}
+.parent div {
+    width: calc((1000px - 15px * 3) / 4);
+    padding: 15px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+@media (min-width: 700px) and (max-width: 1000px){
+    .parent div {
+        font-size: 100px;
+        background-color: blueviolet;
+    }
+}

@@ -1,0 +1,51 @@
+:root {
+    --flexItemCount: 4;
+    --maxItemWidth: 150px;
+}
+
+.flex {
+    display: flex;
+    background-color: #eee;
+    padding: 10px;
+    width: 80%;
+    margin: auto;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    max-width: calc((var(--maxItemWidth) + 10px) * var(--flexItemCount));
+}
+
+.flex div {
+    width: calc(90% / var(--flexItemCount));
+    max-width: var(--maxItemWidth);
+    text-align: center;
+    background-color: red;
+    padding: 15px;
+    color: white;
+    box-sizing: border-box;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+.float {
+    position: relative;
+    overflow: hidden;
+    width: 80%;
+    max-width: calc((var(--maxItemWidth) + 10px) * var(--flexItemCount));
+    background-color: #eee;
+    margin: auto;
+    padding: 10px;
+}
+
+.float div {
+    float: left;
+    max-width: var(--maxItemWidth);
+    width: calc((100% - 50px) / var(--flexItemCount));
+    padding: 15px;
+    box-sizing: border-box;
+    background-color: red;
+    text-align: center;
+    color: white;
+    margin-left: 10px;
+    margin-top: 10px;
+}

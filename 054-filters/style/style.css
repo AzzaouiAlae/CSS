@@ -1,0 +1,8 @@
+img {
+    transition: 2s;
+    filter:blur(10px);
+}
+
+img:hover {
+    filter:blur(0);
+}

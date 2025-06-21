@@ -1,0 +1,29 @@
+.parent {
+    width: 80%;
+    height: 400px;
+    margin: auto;
+    background-color: #aaf;
+    position: relative;
+}
+
+.one {
+    width: 45%;
+    height: 100%;
+    float: right;
+    background-color: #eee;
+    position: relative;
+}
+
+.up {
+    height: 45%;
+    width: 100%;
+    background-color: red;
+    margin-bottom: calc(400px / 10);
+}
+
+.down {
+    height: 45%;
+    width: 100%;
+    background-color: blue;
+    margin-top: 40px;
+}

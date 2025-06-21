@@ -1,0 +1,14 @@
+div {
+    width: 304px;
+    height: 166px;
+    overflow: hidden;
+}
+
+img {
+    transition-duration: .75s;
+}
+
+img:hover {
+    transform: scale(1.3) rotate(10deg);
+    opacity: .8;
+}

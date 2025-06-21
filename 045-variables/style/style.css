@@ -1,0 +1,30 @@
+:root {
+    --fontSize: 25px;
+    --mainBackColor: rgb(144, 21, 192);
+    --mainTextColor: white;
+    --mainPadding: 16px;
+}
+
+* {
+    font-size: var(--fontSize);
+    padding: var(--mainPadding);
+}
+
+div {
+    background-color: var(--mainBackColor);
+    color: var(--mainTextColor, black);
+}
+
+h1 {
+    background-color: #eee;
+    color: var(--mainBackColor);
+}
+
+p {
+    color: var(--mainBackColor);
+    border: 5px solid var(--mainBackColor);
+}
+
+a:hover {
+    color: var(--mainBackColor);
+}

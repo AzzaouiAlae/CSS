@@ -1,0 +1,23 @@
+body {
+    display: flex;
+}
+.parent {
+    display: flex;
+    gap: 15px;
+    margin: auto;
+    div {
+        width: calc((1000px - 15px * 3) / 4);
+        padding: 10px;
+        background-color: red;
+        color: white;
+        text-align: center;
+    }
+}
+@media (min-width: 600px) and (max-width: 800px)
+{
+    .parent div:first-child {
+        background-color: blueviolet;
+    }
+}
+
+

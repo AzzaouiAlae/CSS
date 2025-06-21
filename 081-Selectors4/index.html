@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selectors part 4</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="shape">
+        <p>not(selector) -> .selector1:not(:first-child)</p>
+        <div class="selector1">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>not(class) -> .selector1:not(.special)</p>
+        <div class="selector2">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-child(number) -> :nth-child(5)</p>
+        <div class="selector3">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-child(even/odd) -> :nth-child(even)</p>
+        <div class="selector4">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-of-type(n) -> :nth-of-type(3)</p>
+        <div class="selector5">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-last-child(n) -> :nth-last-child(6)</p>
+        <div class="selector6">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-last-child(n) -> :nth-last-child(5)</p>
+        <div class="selector7">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+    <div class="shape">
+        <p>:nth-last-of-type(n) -> :nth-last-of-type(1)</p>
+        <div class="selector8">
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p class="special">Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <p>Paragraph</p>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+            <div>div</div>
+        </div>
+    </div>
+</body>
+
+</html>

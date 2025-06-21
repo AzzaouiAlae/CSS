@@ -1,0 +1,23 @@
+.flex {
+    width: 80%;
+    max-width: 700px;
+    height: 500px;
+    background-color: #eee;
+    margin: auto;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-evenly;
+}
+
+.flex div {
+    padding: 15px;
+    background-color: red;
+    width: calc((100% - 20px) / 3);
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}

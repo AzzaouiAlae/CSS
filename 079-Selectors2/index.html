@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>CSS Selctors</title>
+    <link rel="stylesheet" href="style/style.css">
+</head>
+
+<body>
+    <div class="style selector1">
+        <div>Element + other Element [ div + p ]</div>
+        <div>div</div>
+        <div>div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector2">
+        <span>Element ~ other Element [ div ~ p ]</span>
+        <p>Paragraph</p>
+        <div>div</div>
+        <div>div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector3">
+        <span>[Attribute]</span>
+        <p title="my-p">Paragraph</p>
+        <div>div</div>
+        <div title="my-div">div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector4">
+        <span>Element[Attribute]</span>
+        <p title="my-p">Paragraph</p>
+        <div>div</div>
+        <div title="my-div">div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector5">
+        <span>[Attribute=value]</span>
+        <p title="my-p">Paragraph</p>
+        <div>div</div>
+        <div title="my-div">div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector6">
+        <span>Element[Attribute=value]</span>
+        <p title="my-p">Paragraph</p>
+        <div>div</div>
+        <div title="my-div">div</div>
+        <p>Paragraph</p>
+        <p>Paragraph</p>
+    </div>
+    <div class="style selector7">
+        <span>[Attribute~=value] Contains a Word</span>
+        <p title="my-p">Paragraph</p>
+        <div >div</div>
+        <div title="my-div div">div</div>
+        <p title="p">Paragraph</p>
+        <p title="paragraph">Paragraph</p>
+    </div>
+    <div class="style selector8">
+        <span>[Attribute*=value] Contains a Sub String</span>
+        <p title="my-p">Paragraph</p>
+        <div >div</div>
+        <div title="my-div div">div</div>
+        <p title="p">Paragraph</p>
+        <p title="paragraph">Paragraph</p>
+    </div>
+    <div class="style selector9">
+        <span>[Attribute^=value] start with Sub String</span>
+        <p title="my-p">Paragraph</p>
+        <div >div</div>
+        <div title="my-div div">div</div>
+        <p title="p">Paragraph</p>
+        <p title="paragraph">Paragraph</p>
+    </div>
+</body>
+
+</html>

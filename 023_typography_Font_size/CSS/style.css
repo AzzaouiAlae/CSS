@@ -1,0 +1,56 @@
+div {
+    background-color: #eee;
+    margin: 15px;
+}
+
+body {
+    font-size: 30px;
+}
+
+.example1 {
+    font-size: 20px;
+}
+
+.example1 .spn1 {
+    font-size: larger;
+}
+.example1 .spn2 {
+    font-size: smaller;
+}
+.example1 .spn3 {
+    font-size: x-large;
+}
+.example1 .spn4 {
+    font-size: xx-large;
+}
+.example1 .spn5 {
+    font-size: xx-small;
+}
+
+.example2 {
+    font-size: 20px;
+}
+
+.example2 span {
+    font-size: 2em;
+}
+
+html {
+    font-size: 50px;
+}
+
+.example3 span{
+    font-size: 2rem;
+}
+
+.example4 {
+    font-size: 20px;
+}
+
+.example4 span {
+    font-size: 150%;
+}
+
+.example5 {
+    font-size: 3vw;
+}

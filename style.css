@@ -1,0 +1,71 @@
+:root {
+    --visibility: hidden;
+    --height: 0;
+}
+
+.tool-bar {
+    max-width: 1000px;
+    width: 80%;
+    background-color: #eee;
+    display: flex;
+    padding: 15px;
+    margin: auto;
+    font-size: 20px;
+    text-align: center;
+    height: 25px;
+}
+
+.main-ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 50%;
+    max-width: 500px;
+}
+
+.main-ul li {
+    width: calc(100% / 3);
+}
+
+.logo {
+    width: 25%;
+    margin-left: auto;
+}
+
+.login-ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    width: 25%;
+    margin-left: 25px;
+}
+
+.login-ul li {
+    width: calc(100% / 2);
+}
+
+.sub-ul {
+    padding: 0;
+    margin: auto;
+    list-style: none;
+    background-color: #eee;
+    width: fit-content;
+    visibility: var(--visibility);
+    height: var(--height);
+}
+
+.hover-effect:hover {
+    --visibility: visible;
+    --height: auto;
+    color: blue;
+}
+
+.sub-ul li {
+    padding: 7px;
+    border: 1px solid transparent;
+    width: 100%;
+    color: black;
+    text-align: left;
+}

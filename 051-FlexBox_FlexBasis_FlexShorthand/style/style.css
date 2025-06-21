@@ -1,0 +1,25 @@
+.flex {
+    display: flex;
+    width: 80%;
+    max-width: 700px;
+    margin: auto;
+    padding: 10px;
+    background-color: #eee;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.flex div {
+    padding: 15px 25px;
+    color: white;
+    background-color: red;
+    text-align: center;
+    font-size: 20px;
+    margin-left: 10px;
+    width: calc(100% / 12);
+}
+
+.flex .one {
+    margin-left: 0;
+    flex: 5 0 100px;
+}

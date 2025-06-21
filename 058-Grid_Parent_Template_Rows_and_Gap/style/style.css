@@ -1,0 +1,33 @@
+html, body {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+
+}
+
+.parent {
+    width: 50%;
+    height: 50%;
+    background: #aaa;
+    align-self: center;
+    display: grid;
+    grid-template-columns: 1fr 3fr 1fr;
+    grid-template-rows: 1fr 3fr 1fr;
+    gap: 2px;
+    padding: 10px;
+}
+
+.parent div {
+    background-color: red;
+    font-size: 25px;
+    padding: 10px;
+    color: white;
+    text-align: center;
+    align-content: center;
+}

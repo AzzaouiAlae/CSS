@@ -1,0 +1,34 @@
+* {
+    background-color: red;
+}
+body {
+    margin: 0;
+}
+body div {
+    width: 50%;
+}
+.class-name {
+    padding: 15px;
+}
+#id-name {
+    height: 50%;
+}
+.parent .child {
+    width: 100%;
+}
+.class-one.class-two {
+    animation-duration: 1s;
+}
+.class-name div {
+    background-color: #eee;
+}
+.class-name div, 
+.class-name p {
+    font-size: 25px;
+}
+div.anime {
+    animation-delay: 1s;
+}
+.class-name > .child {
+    font-family: sans-serif;
+}

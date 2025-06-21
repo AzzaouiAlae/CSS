@@ -1,0 +1,57 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+body {
+    display: flex;
+    align-items: center;
+    padding: 30px 15px;
+    flex-direction: column;
+}
+:root {
+    --a: red;
+}
+* {
+    margin-bottom: 15px;
+}
+form {
+    position: relative;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+    flex-direction: column;
+}
+:checked + label {
+    color: var(--a);
+}
+input[type="checkbox"]:checked + label {
+    color: green;
+}
+div:empty {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
+input:disabled {
+    opacity: .3;
+}
+.aa::before {
+        content: "*";
+        position: absolute;
+        float: left;
+        right: -10px;
+        top: 0;
+        color: red;
+}
+form > div {
+    position: relative;
+}
+input:focus {
+    border: 2px solid red;
+}
+label::selection {
+    background-color: blueviolet;
+    color: white;
+}

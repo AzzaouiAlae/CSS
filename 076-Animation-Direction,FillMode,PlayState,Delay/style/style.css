@@ -1,0 +1,112 @@
+body, html {
+    width: 100%;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+.parent {
+    display: grid;
+    width: 50%;
+    grid-template-columns: repeat(2, auto);
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+h1 {
+    grid-column: span 2;
+    text-align: center;
+}
+.shape1{
+    width: 100px;
+    height: 100px;
+    border: 10px solid #f77;
+    border-radius: 50%;
+    border-left-color: transparent;
+    animation-name: spin;
+    margin: auto;
+    
+}
+@keyframes spin {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+p {
+    font-size: 20px;
+    text-align: center;
+}
+.shape2{
+    animation-direction: reverse;
+}
+.shape3{
+    animation-direction: alternate;
+}
+.shape4{
+    animation-direction: alternate-reverse;
+}
+.coloring1 {
+    background-color: #eee;
+    width: 120px;
+    height: 120px;
+    margin: auto;
+    animation: coloring;
+    animation-direction: normal;
+}
+@keyframes coloring {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: black;
+    }
+    100% {
+        background-color: red;
+    }
+} 
+.coloring-delay {
+    animation-delay: 2s;
+}
+.coloring-reverse {
+    animation-direction: reverse ;
+}
+.coloring-neg-val {
+    animation-delay: -2s;
+}
+.coloring-fill-mode {
+    animation: coloring2 6s linear 0s 1 normal forwards;
+}
+.coloring-fill-mode1 {
+    animation: coloring2 6s linear 0s 1 reverse both;
+}
+.anime {
+    animation-duration: 6s;
+    animation-iteration-count: infinite;
+}
+@keyframes coloring2 {
+    0% {
+        background-color: red;
+    }
+    33% {
+        background-color: blue;
+    }
+    66% {
+        background-color: black;
+    }
+    100% {
+        background-color: green;
+    }
+}
+.shape1:hover,  .coloring1:hover {
+    animation-play-state: paused;
+}

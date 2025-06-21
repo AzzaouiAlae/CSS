@@ -1,0 +1,10 @@
+div {
+    font-size: 25px;
+    background-color: #5F5;
+    margin: 10px 0;
+}
+
+.first {
+    /* display: none; */
+    visibility: hidden;
+}

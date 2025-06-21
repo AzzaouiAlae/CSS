@@ -1,29 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <title>CSS Float</title>
-    <link rel="stylesheet" href="CSS/style.css">
+    <title>CSS ToolBar</title>
+    <link rel="stylesheet" href="style.css">
 </head>
-
 <body>
-    <div class="parent">
-        <div>
-            <div>Log</div>
+    <div class="tool-bar">
+        <div class="logo">
+            Logo
         </div>
-        <ul>
+        <ul class="main-ul">
             <li>Home</li>
-            <li>Fetuarse</li>
+            <li class="hover-effect">Feature
+                <ul class="sub-ul hover-effect" >
+                    <li>Coures</li>
+                    <li>Levels</li>
+                    <li>Teacher</li>
+                </ul>
+            </li>
             <li>About US</li>
         </ul>
-        <ul class="login-list">
-            <li class="login-list-item">Login</li>
-            <li class="login-list-item">|</li>
-            <li class="login-list-item">Sign in</li>
+        <ul class="login-ul">
+            <li>Login</li>
+            <li>SingUp</li>
         </ul>
     </div>
-    <p>this is a test p</p>
 </body>
-
 </html>

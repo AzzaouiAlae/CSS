@@ -1,0 +1,60 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    flex-direction: column;
+}
+
+.parent1, .parent2 {
+    background-color: #eee;
+    width: 30%;
+    height: 30%;
+    display: grid;
+    grid-template-columns: repeat(6, auto);
+    gap: 5px;
+    padding: 15px;
+    margin-bottom: 50px;
+    align-self: center;
+}
+
+.parent1 div, .parent2 div {
+    background-color: red;
+    color: white;
+    font-size: 16px;
+    padding: 15px;
+    align-content: center;
+    text-align: center;
+}
+
+.parent1 .div9 {
+    background-color: green;
+    /* grid-row-start: 2;
+    grid-column-start: 2;
+    grid-column-end: 6;
+    grid-row-end: 5; */
+    grid-area: 2 / 2 / 5 / 6;
+}
+
+.parent2 {
+    grid-template-areas: "logo logo nav nav nav nav" 
+        "content content content content content content";
+}
+
+.div1 {
+    grid-area: logo;
+}
+
+.div2 {
+    grid-area: nav;
+}
+
+.div3 {
+    grid-area: content;
+}

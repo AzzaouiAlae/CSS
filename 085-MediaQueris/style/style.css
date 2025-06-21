@@ -1,0 +1,40 @@
+body, html {
+    width: 100%;
+    padding: 0;
+}
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+.parent {
+    display: flex;
+    padding: 30px;
+    gap: 15px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.parent div {
+    width: 100%;
+    background-color: red;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+@media (max-width: 767px) {
+
+}
+@media (min-width: 768px) {
+    .parent div {
+        width: calc((100% - 15px) / 2);
+    }
+}
+@media (min-width: 992px){
+    .parent div {
+        width: calc((100% - 15px * 2) / 3);
+    }
+}
+@media (min-width: 1200px) {
+    .parent div {
+        width: calc((100% - 15px * 3) / 4);
+    }
+}

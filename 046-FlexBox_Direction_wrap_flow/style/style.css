@@ -1,0 +1,44 @@
+:root {
+    --direction: left;
+}
+
+.flex-parent {
+    background-color: #eee;
+    border: 5px solid #eee;
+    width: 80%;
+    margin: auto;
+    display: flex;
+    /* flex-direction: row;
+    flex-wrap: wrap-reverse; */
+    flex-flow: row wrap-reverse;
+}
+
+.flex-parent div {
+    width: calc(100% / 4);
+    background-color: red;
+    color: white;
+    padding: 15px;
+    font-size: 20px;
+    border: 1px solid #eee;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.parent {
+    width: 80%;
+    border: 5px solid #eee;
+    margin: auto;
+    overflow: hidden;
+}
+
+.parent div {
+    padding: 15px;
+    width: calc(100% / 4);
+    float: var(--direction);
+    box-sizing: border-box;
+    background-color: red;
+    color: white;
+    font-size: 20px;
+    border: 1px solid #f55;
+    text-align: center;
+}

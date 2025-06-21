@@ -1,0 +1,61 @@
+:root {
+    --mainPadding: 15px;
+    --barsHeight: 50px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    font-size: 20px;
+    text-align: center;
+}
+
+header {
+    background-color: #C8C8C8;
+    padding: var(--mainPadding);
+    width: 100%;
+    height: var(--barsHeight);
+}
+
+aside {
+    padding: var(--mainPadding);
+    background-color: #D8D8D8;
+    width: 20%;
+    max-width: 250px;
+    height: calc(100% - var(--barsHeight) * 2);
+}
+
+section {
+    width: 80%;
+    height: calc(100% - var(--barsHeight) * 2);
+    flex-grow: 1;
+}
+
+nav {
+    background-color: #E5E5E5;
+    height: var(--barsHeight);
+    padding: var(--mainPadding);
+    width: 100%;
+}
+
+article {
+    padding: var(--mainPadding);
+    background-color: #F2F2F2;
+    height: calc(100% - var(--barsHeight));
+    width: 100%;
+}
+
+footer {
+    padding: var(--mainPadding);
+    background-color: #CBCBCB;
+    width: 100%;
+}

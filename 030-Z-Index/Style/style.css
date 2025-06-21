@@ -1,0 +1,26 @@
+.example1 {
+    padding: 15px;
+    color: white;
+    font-size: 25px;
+    width: 100px;
+    text-align: center;
+    position: absolute;
+}
+
+.one {
+    background-color: red;
+    z-index: 3;
+}
+
+.two {
+    background-color: green;
+    z-index: 2;
+    left: 100px;
+    top: 30px;
+}
+
+.three {
+    background-color: blue;
+    left: 200px;
+    top: 60px;
+}

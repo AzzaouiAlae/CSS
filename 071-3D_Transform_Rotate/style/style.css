@@ -1,0 +1,36 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    width: 30%;
+    height: 30%;
+    padding: 10px;
+    background-color: #eee;
+    align-self: center;
+}
+
+.parent div {
+    width: 100%;
+    height: 100%;
+    background-color: #999;
+    color: white;
+    align-content: center;
+    text-align: center;
+    font-size: 30px;
+    font-family: sans-serif;
+    transform-origin: right top;
+    transition-duration: 1s;
+    transform: rotateX(90deg);
+}
+
+.parent:hover{
+    div {
+        transform: rotateX(0);
+    }
+}

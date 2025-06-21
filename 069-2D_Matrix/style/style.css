@@ -1,0 +1,32 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    align-self: center;
+    text-align: center;
+    font-family: sans-serif;
+    padding: 15px;
+    width: 25%;
+    height: 25%;
+    background-color: #eee;
+}
+
+.parent div {
+    background-color: red;
+    height: 100%;
+    color: white;
+    align-content: center;
+    font-size: 25px;
+    transition-duration: 1s;
+    transform: matrix(1, 0, 0, 1, 0, 0);
+}
+
+/* .parent div:hover {
+    transform: matrix(1, .28, 0, 1, 0, 0);
+} */

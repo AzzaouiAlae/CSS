@@ -1,0 +1,41 @@
+body, html {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.parent {
+    width: 25%;
+    height: 25%;
+    align-self: center;
+    display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: 1fr auto; 
+}
+
+.transform {
+    padding: 10px;
+    background-color: #eee;
+    grid-column: 2;
+    grid-row: 1;
+}
+
+.transform div {
+    background-color: red;
+    opacity: .5;
+    height: 100%;
+    text-align: center;
+    align-content: center;
+    font-size: 25px;
+    font-family: sans-serif;
+    font-weight: 700;
+    color: white;
+    transition-duration: 1.5s;
+}
+
+.transform div:hover {
+    transform: scale(2);
+}

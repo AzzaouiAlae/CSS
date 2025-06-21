@@ -1,0 +1,7 @@
+div {
+    padding: 12px;
+    margin: 20px;
+    font-size: 40px;
+    background-color: #eee;
+    text-shadow: 2px 2px 10px red;
+}

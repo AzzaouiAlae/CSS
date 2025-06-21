@@ -1,0 +1,43 @@
+.flex {
+    width: 50%;
+    max-width: 640px;
+    height: 200px;
+    margin: auto;
+    background-color: #eee;
+    display: flex;
+    padding: 10px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.flex div {
+    width: 24%;
+    max-width: 150px;
+    padding: 15px;
+    background-color: red;
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+}
+
+.float {
+    width: 50%;
+    max-width: 640px;
+    margin: auto;
+    background-color: #eee;
+    padding: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.float div {
+    float: left;
+    width: 24%;
+    background-color: red;
+    box-sizing: border-box;
+    max-width: 150px;
+    padding: 15px;
+    text-align: center;
+    color: white;
+    margin-left: 1%;
+}
